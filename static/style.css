@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+#logo{
+        display: flex;
+        color: white;
+        align-items: center;
+        margin: -5px 10px;
+        margin-right: 10px;
+}
+#logo img{
+    height: 30px;
+    filter: invert(1);
+}
+#lname{
+    padding:0px 4px;
+    font-weight: bold;
+    font-size: 8px;
+}
+#lname:hover{
+    color: blue;
+}
+
+#navbar {
+    background-color: #dd7070;
+    /* font-family: 'Yeon Sung' ; */
+    padding: 13px, 14px;
+    
+    
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    padding: 16px;
+    
+}
+
+#navbar li{
+    list-style: none;
+    
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 15px 30px;
+    color: white;
+    font-weight: bold;
+}
+#navbar li a:hover{
+    color: black;
+}
+
+#introSection {
+    background:url('/static/bg.jpg') no-repeat center center/cover;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+    font-size: 50px;
+    height: 500px;
+    font-weight: bold;
+    background-color: rgb(72, 185, 87);
+}
+
+#introSection div.small{
+    font-size: 30px;
+}
+
+#ourMission{
+    height: 300px;
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+#ourMission div.head{
+    text-align: center;
+    padding-top:20px ;
+    font-size: 25px;
+    font-weight: bold;
+}
+.card{
+    display: inline-block;
+    width: 28%;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 24px 28px;
+    height: 200px;
+}
+.card h2{
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 100px;
+    margin: 20px 22px;
+}
+.card-img img{
+    height: inherit; 
+}
+.card-content{
+    padding:0px 20px;
+}
+
+
+
+#sponsorsSection{
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(218, 173, 200);
+}
+#sponsorsSection div.head{
+    text-align: center;
+    padding-top:10px ;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#sponsors{
+    height: 100px;
+    margin: 0px 24px;
+}
+.spImage{
+    margin: 30px 0px;
+    padding: 10px 35px;
+    height: 80px;
+    
+}
+
+#footer{
+    height: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 10px;
+}

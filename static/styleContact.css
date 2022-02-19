@@ -1,0 +1,33 @@
+
+h1{
+    text-align: center;
+    margin: 20px 15px;
+}
+
+.myForm{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.myInput{
+    margin: 5px auto;
+    padding: 10px 20px;
+    width: 40%;
+    border: 1px solid black;
+}
+
+.btn{
+    margin: 8px 3px;
+    padding: 7px 20px;
+    cursor: pointer;
+    background-color:  #dd7070;
+}
+
+
+#footer{
+    margin-top:197px;
+}
